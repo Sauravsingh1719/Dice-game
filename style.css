@@ -1,0 +1,68 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-position: center;
+    background-size: contain;
+}
+.card {
+    padding: 50PX;
+    width: 430px;
+    height: 700px;
+    background-color: #010000;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    text-align: center;
+    font-size: xx-large;
+}
+.Image{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.Image img{
+    width: 100px;
+    height: 100px;
+}
+.Win{
+    font-size: larger;
+    text-decoration: wavy;
+    color: red;
+}
+h1{
+    color: White;
+    font-family: 'Young Serif', serif;
+}
+h2{
+    color: white;
+}
+button{
+    padding: 3px;
+    border-radius: 15px;
+    width: 120px;
+    font-size: large;
+    font-family: cursive
+    
+}
+.Image p{
+    color: white;
+    font-family: cursive;
+}
+@media only screen and (max-width: 450px) {
+    
+    .card{
+        padding: 30px;
+        flex-wrap: nowrap;
+        height: 900px;
+    }
+    .Images{
+        flex-wrap: nowrap;
+        margin-top: 20px;
+    }
+  }
